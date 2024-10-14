@@ -232,142 +232,113 @@ export default class Home extends Component {
           </section>
 
 
-        </div >
-
-        <section className={`${style.container7}`}>
-          <div className="container pb-5 mb-5">
-            <div className="row">
-              <div className="col-lg-8">
-                <div className="row">
-
-                  <div className="col-lg-6">
-                    <img src="https://riseuplabs.com/wp-content/uploads/2021/07/mobile-application-development-guidelines-riseuplabs.jpg" alt="" width={400} height={180} />
-                  </div>
-                  <div className="col-lg-6">
-                    <img src="https://www.velvetech.com/wp-content/uploads/2019/08/15-software-development-methodologies-fb.jpg" alt="" width={400} height={180} />
-                  </div>
-
-
-                  <div className="row">
-                    <div className="col-lg-12 py-3">
-                      <img src="https://www.brilworks.com/_next/image/?url=https%3A%2F%2Fa.storyblok.com%2Ff%2F219851%2F550x283%2F4df17cf388%2Fevolution-of-generative-ai.webp&w=3840&q=30" width={840} height={200} alt="" />
-                    </div>
-                  </div>
-
-
-                  <div className="row">
-                    <div className="col-lg-6">
-                      <img src="https://media.b2broker.com/app/uploads/2023/11/Overview-of-The-MetaTrader-4-Web-Platform.png" alt="" width={400} height={180} />
-                    </div>
-                    <div className="col-lg-6">
-                      <img src="https://www.theknowledgeacademy.com/_files/images/Game_Development_Process_An_Overview.png" alt="" width={400} height={180} />
-                    </div>
-                  </div>
-
-
-                </div>
-              </div>
-              <div className="col-lg-2"><img src="https://www.keystonesubic.com/storage/2023/03/web-devlopment.jpg" alt="" width={400} height={595} /></div>
-            </div >
-          </div >
-        </section>
-
-        <section>
-          <div className={`${style.container8}`}>
-            <div className="container">
+          <section className={`${style.container7}`}>
+            <div className="container pb-5 mb-5">
               <div className="row">
-                <div className="col-lg-4">
-                  <h1>Get work done in <span>over 2000 </span>different categories</h1>
+                <div className="col-lg-8">
+                  <div className="row">
+
+                    <div className="col-lg-6">
+                      <img src="https://www.sphereinc.com/wp-content/uploads/2022/05/cloud_cybersecurity.webp" alt="" width={400} height={180} />
+                    </div>
+                    <div className="col-lg-6">
+                      <img src="https://bombaychamber.com/wp-content/uploads/2024/04/Online-Blockchain-Cryptocurrency-Certification-Course-scaled-1.jpg" alt="" width={400} height={180} />
+                    </div>
+
+
+                    <div className="row">
+                      <div className="col-lg-12 py-3">
+                        <img src="https://media.licdn.com/dms/image/D4D12AQHcNSzLU7jiGA/article-cover_image-shrink_720_1280/0/1715785719025?e=2147483647&v=beta&t=8u6gqTJqGsPUNhgAAjxbFm9cdazu8EUYtU-ybD_z3gU" alt="" width={400} height={100} />
+                      </div>
+                    </div>
+
+                    <div className="row">
+                      <div className="col-lg-6">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhUkqpOsgKKtlelRm8RvRZs3-4Xi1DMshFiA&s" alt="" width={400} height={180} />
+                      </div>
+                      <div className="col-lg-6">
+                        <img src="https://www.newperspectivestudio.co.za/wp-content/uploads/2024/09/What-is-website-maintenance-and-Why-it-is-important.jpg" alt="" width={400} height={180} />
+                      </div>
+                    </div>
+                  </div>
                 </div>
-
-                <div className="col-lg-6">
-
-                  <div className="row">
-                    <div className="col-lg-4">
-                    <a href=""><h4>ai development</h4></a> 
-                    </div>
-                    <div className="col-lg-4">
-                    <a href=""><h4>ai development</h4></a>
-                    </div>
-                    <div className="col-lg-4">
-                    <a href=""><h4>ai development</h4></a>
-                    </div>
-                  </div>
-
-                  <div className="row">
-                    <div className="col-lg-4">
-                    <a href=""><h4>ai development</h4></a>
-                    </div>
-                    <div className="col-lg-4">
-                    <a href=""><h4>ai development</h4></a>
-                    </div>
-                    <div className="col-lg-4">
-                    <a href=""><h4>ai development</h4></a>
-                    </div>
-                  </div>
-
-                  <div className="row">
-                    <div className="col-lg-4">
-                    <a href=""><h4>ai development</h4></a>
-                    </div>
-                    <div className="col-lg-4">
-                    <a href=""><h4>ai development</h4></a>
-                    </div>
-                    <div className="col-lg-4">
-                    <a href=""><h4>ai development</h4></a>
-                    </div>
-                  </div>
-
-
-                  <div className="row">
-                    <div className="col-lg-4">
-                      <a href=""><h4>ai development</h4></a>
-                    </div>
-                    <div className="col-lg-4">
-                    <a href=""><h4>ai development</h4></a>
-                    </div>
-                    <div className="col-lg-4">
-                    <a href=""><h4>ai development</h4></a>
-                    </div>
-                  </div>
-
+                <div className="col-lg-2">
+                  <img src="https://novawebbusiness.com/wp-content/uploads/2024/03/Web-Development.webp" alt="" width={400} height={595} />
                 </div>
-
-
               </div>
             </div>
-          </div>
-        </section>
+          </section>
 
+
+
+          <section>
+            <div className={`${style.container8}`}>
+              <div className="container">
+                <div className="row">
+                  <div className="col-lg-4">
+                    <h1>Get work done in <span>over 2000 </span>different categories</h1>
+                  </div>
+
+                  <div className="col-lg-6">
+
+                    <div className="row">
+                      <div className="col-lg-4">
+                        <a href=""><h4>ai development</h4></a>
+                      </div>
+                      <div className="col-lg-4">
+                        <a href=""><h4>ai development</h4></a>
+                      </div>
+                      <div className="col-lg-4">
+                        <a href=""><h4>ai development</h4></a>
+                      </div>
+                    </div>
+
+                    <div className="row">
+                      <div className="col-lg-4">
+                        <a href=""><h4>ai development</h4></a>
+                      </div>
+                      <div className="col-lg-4">
+                        <a href=""><h4>ai development</h4></a>
+                      </div>
+                      <div className="col-lg-4">
+                        <a href=""><h4>ai development</h4></a>
+                      </div>
+                    </div>
+
+                    <div className="row">
+                      <div className="col-lg-4">
+                        <a href=""><h4>ai development</h4></a>
+                      </div>
+                      <div className="col-lg-4">
+                        <a href=""><h4>ai development</h4></a>
+                      </div>
+                      <div className="col-lg-4">
+                        <a href=""><h4>ai development</h4></a>
+                      </div>
+                    </div>
+
+
+                    <div className="row">
+                      <div className="col-lg-4">
+                        <a href=""><h4>ai development</h4></a>
+                      </div>
+                      <div className="col-lg-4">
+                        <a href=""><h4>ai development</h4></a>
+                      </div>
+                      <div className="col-lg-4">
+                        <a href=""><h4>ai development</h4></a>
+                      </div>
+                    </div>
+
+                  </div>
+
+
+                </div>
+              </div>
+            </div>
+          </section>
+        </div >
       </Fragment >
     )
   }
 }
-
-
-
-/*<section className={`${style.container3}`}>
-            <div className="container ms-5">
-              <h1 className="ms-5 mb-4">Our Categories</h1>
-              <div className="row pb-3">
-                {data.map((value, index) => {
-                  return (
-                    <div key={value.id} className=" ps-5 col-lg-4 col-md-6 col-sm-12" >
-                      <div className="col-md-3 ">
-                        <h3 className={`${style.card1}`}>{value.title}<i class="fa-solid fa-angle-right ps-4"></i></h3>
-                      </div>
-                    </div>
-                  )
-                })}
-              </div>
-            </div>
-          </section>*/
-
-
-
-
-
-
-
-
-/**/
