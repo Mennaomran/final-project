@@ -107,7 +107,7 @@ export default class Home extends Component {
           </section>
 
 
-          <section className={`${style.container5}`}>
+          <section className={`${style.container3}`}>
             <div className="container">
               <div className="row">
                 <div className="col-lg-4"><img src="https://www.keystonesubic.com/storage/2023/03/web-devlopment.jpg" alt="" width={400} height={595} /></div>
@@ -182,7 +182,7 @@ export default class Home extends Component {
 
 
 
-          <section className={`${style.container6}`}>
+          <section className={`${style.container5}`}>
             <div className="container  mt-5">
               <div className="row">
                 <div className="col-lg-5 pt-5 mt-5">
@@ -232,7 +232,7 @@ export default class Home extends Component {
           </section>
 
 
-          <section className={`${style.container7}`}>
+          <section className={`${style.container6}`}>
             <div className="container pb-5 mb-5">
               <div className="row">
                 <div className="col-lg-8">
@@ -248,7 +248,7 @@ export default class Home extends Component {
 
                     <div className="row">
                       <div className="col-lg-12 py-3">
-                        <img src="https://media.licdn.com/dms/image/D4D12AQHcNSzLU7jiGA/article-cover_image-shrink_720_1280/0/1715785719025?e=2147483647&v=beta&t=8u6gqTJqGsPUNhgAAjxbFm9cdazu8EUYtU-ybD_z3gU" alt="" width={400} height={100} />
+                        <img src="https://novawebbusiness.com/wp-content/uploads/2024/03/Web-Development.webp" alt="" width={835} height={200} />
                       </div>
                     </div>
 
@@ -263,7 +263,8 @@ export default class Home extends Component {
                   </div>
                 </div>
                 <div className="col-lg-2">
-                  <img src="https://novawebbusiness.com/wp-content/uploads/2024/03/Web-Development.webp" alt="" width={400} height={595} />
+                  <img src="https://media.licdn.com/dms/image/D4D12AQHcNSzLU7jiGA/article-cover_image-shrink_720_1280/0/1715785719025?e=2147483647&v=beta&t=8u6gqTJqGsPUNhgAAjxbFm9cdazu8EUYtU-ybD_z3gU" alt="" width={400} height={595} />
+                  
                 </div>
               </div>
             </div>
@@ -271,8 +272,8 @@ export default class Home extends Component {
 
 
 
-          <section>
-            <div className={`${style.container8}`}>
+          <section className={`${style.container7}`}>
+            <div >
               <div className="container">
                 <div className="row">
                   <div className="col-lg-4">

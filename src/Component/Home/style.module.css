@@ -1,5 +1,4 @@
 .home {
-  margin-bottom: 100px;
   overflow: hidde;
 }
 
@@ -133,40 +132,48 @@
 }
 
 /*****************************************************************************/
-.container5 img {
+.container3 img {
   border-radius: 3dvh;
   background-color: rgb(8, 204, 204);
   transition: 0.5s ease;
 }
-.container5 img:hover {
+.container3 img:hover {
   transform: scale(1.1);
 }
 
 /*****************************************************************************/
-.container3 {
-  background-color: rgb(255, 255, 255);
-  width: 100%;
-  height: 70vh;
-  margin-bottom: 300px;
-}
-.container3 .card1 {
-  background-color: rgb(152, 165, 165);
-  height: 50px;
-  width: 400px;
-  text-align: center;
-  padding-top: 10px;
-  border-radius: 2dvh;
-  margin-bottom: 20px;
-  transition: 0.5s ease;
-}
-.container3 .card1 img {
-  border-radius: 2dvh;
-}
-.container3 .card1 h3 {
-  font-size: 2ch;
-}
-.container3 .card1:hover {
-  transform: scale(1.1);
+/*.container3 {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 70vh;
+    margin-bottom: 300px;
+
+    .card1 {
+        background-color: rgb(152, 165, 165);
+        height: 50px;
+        width: 400px;
+
+        text-align: center;
+        padding-top: 10px;
+        border-radius: 2dvh;
+        margin-bottom: 20px;
+        transition: 0.5s ease;
+
+
+        img {
+            border-radius: 2dvh;
+        }
+
+        h3 {
+            font-size: 2ch;
+        }
+    }
+
+    .card1:hover {
+        transform: scale(1.1);
+    }
+
+
 }
 
 /***************************************************************************************/
@@ -184,7 +191,7 @@
 }
 
 /*******************************************************************************************/
-.container6 {
+.container5 {
   margin: 50px 0px 100px 0px;
   background-color: rgb(237, 225, 209);
   border-radius: 1dvb;
@@ -192,43 +199,43 @@
   margin-right: 40px;
   padding: 50px;
 }
-.container6 h1 {
+.container5 h1 {
   font-size: 6ch;
   font-weight: 600;
 }
-.container6 span {
+.container5 span {
   color: rgb(0, 110, 255);
   font-size: 5ch;
   font-weight: 700;
 }
-.container6 h2 {
+.container5 h2 {
   font-size: 10;
   font-weight: 900;
   color: rgb(0, 0, 0);
 }
-.container6 h3 {
+.container5 h3 {
   font-size: 3ch;
   font-weight: 400;
   color: rgb(0, 0, 0);
 }
-.container6 p {
+.container5 p {
   font-size: 2ch;
   font-weight: 450;
   color: rgba(2, 2, 2, 0.693);
 }
 
 /*****************************************************************************/
-.container7 img {
+.container6 img {
   border-radius: 3dvh;
   background-color: rgb(8, 204, 204);
   transition: 0.5s ease;
 }
-.container7 img:hover {
+.container6 img:hover {
   transform: scale(1.1);
 }
 
 /****************************************************************************/
-.container8 {
+.container7 {
   margin: 100px 0px 100px 0px;
   background-color: rgb(231, 228, 211);
   border-radius: 2dvh;
@@ -236,20 +243,20 @@
   margin-right: 40px;
   padding: 50px;
 }
-.container8 a {
+.container7 a {
   text-decoration: none;
 }
-.container8 a h4 {
+.container7 a h4 {
   color: black;
   padding-bottom: 50px;
 }
-.container8 a h4:hover {
+.container7 a h4:hover {
   text-decoration: underline;
 }
-.container8 h1 {
+.container7 h1 {
   font-size: 5ch;
   font-weight: 600;
 }
-.container8 h1 span {
+.container7 h1 span {
   color: rgb(0, 110, 255);
 }/*# sourceMappingURL=style.module.css.map */
