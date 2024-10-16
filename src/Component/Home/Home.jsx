@@ -179,7 +179,6 @@ export default class Home extends Component {
 
 
 
-    {/* //////////////////////////////////////////////////////////////////////////////////////////// */}
           
     <div className={`container text-center py-5 ${style.container10}`}>
             <h1 className={`pt-5 ${style.h1}`}>
@@ -190,7 +189,7 @@ export default class Home extends Component {
               learning.
             </p>
           </div>
-          {/* start of be a developer section */}
+          
           <div className={`container ${style.container9}`}>
             <div className={`row m-5 ${style.row}`}>
               <div
@@ -233,10 +232,7 @@ export default class Home extends Component {
               </div>
             </div>
           </div>
-          {/* end of be a developer section */}
-
-          {/* ////////////////////////////////////////////////////////////////////////////////////////// */}
-
+         
 
 
 
@@ -443,3 +439,6 @@ export default class Home extends Component {
     )
   }
 }
+
+
+    

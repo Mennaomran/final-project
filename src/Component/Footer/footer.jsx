@@ -1,5 +1,5 @@
-import React, { Component, Fragment } from "react";
-import style from './footer.css';
+/*import React, { Component, Fragment } from "react";
+import style from './footer.module.css';
 import data from "../../data";
 export default class Footer extends Component {
     render() {
@@ -73,14 +73,63 @@ export default class Footer extends Component {
             </Fragment >
         )
     }
+}*/
+
+
+/*banan*/
+import React, { Component, Fragment } from "react";
+import styles from './footer.module.css'; // Corrected filename
+import img from "../../assets/logoo.png";
+
+export default class Footer extends Component {
+    render() {
+        return (
+            <Fragment>
+                
+
+                <div id="footer" className={`footercontainer p-3 ${styles.main}`}>
+                    <div className={`container text-center ${styles.container}`}>
+                        <div className="icon">
+                            <img src={img} alt="Logo" width={"100px"} height={"100px"} />
+                        </div>
+                        <div className={`${styles.links}`}>
+                            <a className={`${styles.link}`} href="#home">Home</a>
+                            <a className={`${styles.link}`} href="#traks">Our Specialties</a>
+                            <a className={`${styles.link}`} href="#beadiv">Start your Developing Journey</a>
+                            <a className={`${styles.link}`} href="#footer">Contact Us</a>
+                        </div>
+                        <ul className={`${styles.icons}`}>
+                            <a className={`${styles.icon}`} href="/"><i className="fa-brands fa-whatsapp"></i></a>
+                            <a className={`${styles.icon}`} href="/"><i className="fa-brands fa-facebook"></i></a>
+                            <a className={`${styles.icon}`} href="/"><i className="fa-brands fa-twitter"></i></a>
+                            <a className={`${styles.icon}`} href="/"><i className="fa-brands fa-instagram"></i></a>
+                            <a className={`${styles.icon}`} href="/"><i className="fa-brands fa-linkedin"></i></a>
+                        </ul>
+                        <p>Copyright &copy; 2024; Designed by <span className="designer">Team.1</span></p>
+                    </div>
+                </div>
+            </Fragment>
+        )
+    }
 }
 
-/**{data.map((value, index) => {
-                  return (
-                    <div key={value.id} className=" ps-5 col-lg-4 col-md-6 col-sm-12" >
-                      <div className="col-md-3 ">
-                        <h3 className={`${style.card1}`}>{value.title}<i class="fa-solid fa-angle-right ps-4"></i></h3>
-                      </div>
-                    </div>
-                  )
-                })} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,76 @@
+/*.footer1{
+    background-color: rgb(169, 193, 193);
+    color: white;
+
+    padding:0px 50px 0px 50px;
+
+}*/
+
+/* banan*/
+
+// .footer{
+//     background-color: black;
+//     height: 50vh;
+// }
+
+
+
+@import "~bootstrap/scss/bootstrap";
+.main {
+  background-color: rgb(27, 20, 68);
+  min-height: 50vh;
+  font-family: "Platform-fallback";
+  .container {
+    padding: 20px;
+    color: rgb(0, 0, 0);
+    border-radius: 25px;
+    background-color: rgba(255, 255, 255, 0.8);
+
+    a {
+      text-decoration: none;
+      font-size: 1.2rem;
+      color: #534d3c;
+      margin: 10px;
+    }
+    .link
+    {
+        transition: 0.3s ease;
+    }
+    .link:hover{
+        transform: scale(1.1);
+        color: #ffc107;
+    }
+    .icons {
+        margin-top: 15px;
+      .icon {
+        background-color: aliceblue;
+        border-radius: 50%;
+        padding: 10px;
+        transition: 0.3s ease;
+      }
+      .icon:hover {
+        transform: scale(1.1);
+        background-color: #534d3c;
+        color: aliceblue;
+      }
+    }
+  }
+}
+
+@media(max-width:700px){
+    .links
+    {
+        flex-direction: column;
+        .link
+        {
+            width: 100%;
+            text-align: center;
+            margin: 10px;
+        }
+    }
+
+}
+.footer{
+  background-color: black;
+  height: 50vh;
+}
