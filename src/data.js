@@ -4,68 +4,69 @@ const data =
             "id": 1,
             "title": "Web Devlopment",
             "description": "",
-            "image": "https://media.assettype.com/analyticsinsight%2F2024-07%2F196c7265-2257-40dd-b2ca-8edc9fe73f97%2FArtificial_Intelligence_5.jpg",
+            "image": "https://www.keystonesubic.com/storage/2023/03/web-devlopment.jpg",
         },
         {
             "id": 2,
-            "title": "ai development",
+            "title": "AI Development",
             "description": "",
-            "image": "https://media.licdn.com/dms/image/D4D12AQF6ZWEbfz69gQ/article-cover_image-shrink_720_1280/0/1688138001236?e=2147483647&v=beta&t=aujmE2UkjIvMm_o-dmsTIeKBH2zC2okRxHfG7tTdjDc",
+            "image": "https://www.brilworks.com/_next/image/?url=https%3A%2F%2Fa.storyblok.com%2Ff%2F219851%2F550x283%2F4df17cf388%2Fevolution-of-generative-ai.webp&w=3840&q=30",
 
         },
         {
             "id": 3,
-            "title": "web platform",
+            "title": "Website Platform",
             "description": "",
-            "image": "https://d2gz8p6ykzvfb0.cloudfront.net/storage/5Ta0tyTVtdBQQMhKcPx0ZmW7TUViwRKAmVZz5ICL.jpg",
+            "image": "https://media.b2broker.com/app/uploads/2023/11/Overview-of-The-MetaTrader-4-Web-Platform.png",
 
         },
         {
             "id": 4,
-            "title": "mobile app development",
+            "title": "Mobile App Development",
             "description": "",
             "image": "https://www.shutterstock.com/image-vector/ai-chat-bot-image-robot-600nw-2351735111.jpg",
 
         },
         {
             "id": 5,
-            "title": "chatbot development",
+            "title": "Chatbot Development",
             "description": "",
             "image": "https://hashstudioz.com/blog/wp-content/uploads/2023/09/ezgif.com-gif-maker-2.webp",
         },
         {
             "id": 6,
-            "title": "game development",
+            "title": "Game Development",
             "description": "",
-            "image": "https://www.tinkercoders.com/wp-content/uploads/2022/06/game-developme.jpeg",
+            "image": "https://www.theknowledgeacademy.com/_files/images/Game_Development_Process_An_Overview.png",
 
-        },
+        }
+        ,
         {
             "id": 7,
-            "title": "cloud & cybersecurity",
+            "title": "Cloud & Cybersecurity",
             "description": "",
             "image": "https://www.sphereinc.com/wp-content/uploads/2022/05/cloud_cybersecurity.webp",
 
         },
         {
             "id": 8,
-            "title": "data science & ML",
+            "title": "Data science & ML",
             "description": "",
             "image": "https://contenthub.unl.edu/sites/unl.edu.contenthub/files/images/major/hero/data-science_hero.jpg",
 
         },
         {
             "id": 9,
-            "title": "web maintenece",
+            "title": "Websites Maintenece",
             "description": "",
-            "image": "https://onward.justia.com/wp-content/uploads/2022/03/Law-Website-Under-Maintenance-1024x538.png",
+            "image": "",
 
         },
         {
             "id": 10,
-            "title": "software development",
+            "title": "Software Development",
             "description": "",
-            "image": "https://cdn.thenewstack.io/media/2024/04/45a985ed-software-development-1024x588.png",
+            "image": "https://www.velvetech.com/wp-content/uploads/2019/08/15-software-development-methodologies-fb.jpg",
 
         },
         

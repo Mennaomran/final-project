@@ -1,11 +1,14 @@
+
+
+
 .home {
-    
+
     overflow: hidde;
-  
+
 }
 
 .container {
-    /*background-color: rgb(225, 141, 16);*/
+   
     background-image: url(https://i.pinimg.com/originals/a8/95/d1/a895d143497deab9f5b94834a7d9550a.gif);
     background-repeat: no-repeat;
     background-size: cover;
@@ -44,10 +47,7 @@
         border-width: 3px;
         padding: 10px 10px 10px 10px;
         margin-right: 8px;
-        /*i{
-        color: white;
-        font-size: 1.4ch;
-        }*/
+       
     }
 
     .button2 {
@@ -61,10 +61,7 @@
         border-width: 2px;
         padding: 10px 10px 10px 10px;
 
-        /*i{
-        color: white;
-        font-size: 1.4ch;
-        }*/
+      
         span {
             font-size: 1.4ch;
             font-weight: 00;
@@ -90,9 +87,9 @@
     }
 }
 
-/*****************************************************************************/
-.container1 {
-    height: 15vh;
+
+ .container1 {
+    height: 35vh;
     width: 100%;
     background-color: rgb(255, 255, 255);
 
@@ -117,32 +114,30 @@
     }
 }
 
-/******************************************************************************/
+
+
 .container2 {
     margin: 100px 0px 100px 0px;
-    //background-image: url(https://www.bing.com/images/blob?bcid=qBvvkgfR4J8Hr1Q68yTKaUe.Paf3.....74);
+   
     background-color: rgb(174, 208, 208);
     border-radius: 1dvb;
     margin-left: 40px;
     margin-right: 40px;
-    padding: 50px;
+
+
+
 
     h1 {
         font-size: 5ch;
         font-weight: 500;
+        padding-left: 20px;
     }
 
     span {
         color: rgb(0, 110, 255);
         font-size: 5ch;
         font-weight: 500;
-
-    }
-
-    h2 {
-        font-size: 10;
-        font-weight: 900;
-        color: rgb(0, 0, 0);
+        padding-left: 20px;
 
     }
 
@@ -150,27 +145,40 @@
         font-size: 3ch;
         font-weight: 450;
         color: rgb(0, 0, 0);
+        padding-left: 20px;
     }
 
     p {
         font-size: 2.5ch;
         font-weight: 350;
-        color: rgba(2, 2, 2, 0.693);
+        color: rgba(36, 36, 36, 0.782);
+        padding-left: 20px;
+
+
+    }
+
+
+    img {
+        text-align: center;
     }
 }
-/*****************************************************************************/
-.container3
-{
-    img{
+
+
+.container3 {
+    margin-bottom: 00px;
+    img {
         border-radius: 3dvh;
         background-color: rgb(8, 204, 204);
         transition: 0.5s ease;
+
     }
-    img:hover{
+
+    img:hover {
         transform: scale(1.1);
     }
 }
-/*****************************************************************************/
+
+
 /*.container3 {
     background-color: rgb(255, 255, 255);
     width: 100%;
@@ -203,16 +211,93 @@
     }
 
 
-}
+}*/
 
-/***************************************************************************************/
-.container4 {
-    
-    text-align: start;
-    border-radius: 2dvh;
-    margin-top: 100px;
-    
+
+
+
+.container10 {
+    min-height: 30vh;
+     font-family: 'PreplyInterV';
+    font-family: "Platform", "Platform-fallback", "Platform-fallback-android",
+      "Noto Sans", "NotoSans-fallback", "NotoSans-fallback-android", sans-serif;
+    .h1 {
+      font-size: 58px;
+      font-weight: 800;
+    }
+    .p {
+      font-size: 20px;
+      font-weight: 400;
+    }
+  }
   
+
+  .container9 {
+    min-height: 95vh;
+    position: relative;
+    border: 1px solid #282626;
+    border-radius: 25px;
+    .row{
+      position:relative;
+      .muliimage {
+      position:relative;
+      img {
+        border-radius: 25px;
+        position: absolute; // Position images absolutely within the container
+      }
+      .img1 {
+          z-index: 2;
+      }
+      .img2 {
+       z-index: 1;
+      }
+      .img3 {
+        z-index: 0;
+      }
+    }
+  // text col.text
+    .text{
+      font-family: "Platform-fallback";
+      display: block;
+      align-items: center;
+      justify-items: center;
+      padding-top: 150px;
+      padding-left: 80px;
+      color: rgb(95, 39, 23);
+    }
+      @media (max-width: 1200px) {
+        min-height: 180vh;
+
+        img {
+           width: 380px;
+        }
+        .img1{
+            height: 450;
+        }
+        .img2{
+            height: 420;
+        }
+        .img3{
+            height:370 ;
+        }
+        .text{
+            padding-top: 400px;
+            padding-left: 0px;
+        }
+        // Adjust for smaller screens
+    }
+    }
+  }
+  
+
+
+.container4 {
+
+    text-align: start;
+    border-radius: 0dvh;
+    margin-top: 100px;
+
+
     padding-bottom: 50px;
     background-color: aliceblue;
 
@@ -223,9 +308,9 @@
 
     }
 }
-/*******************************************************************************************/
+
 .container5 {
-    margin: 50px 0px 100px 0px;
+    margin: 50px 0px 100px 900px;
     //background-image: url(https://www.bing.com/images/blob?bcid=qBvvkgfR4J8Hr1Q68yTKaUe.Paf3.....74);
     background-color: rgb(237, 225, 209);
     border-radius: 1dvb;
@@ -264,19 +349,21 @@
         color: rgba(2, 2, 2, 0.693);
     }
 }
-/*****************************************************************************/
-.container6{
-    img{
+
+.container6 {
+    img {
         border-radius: 3dvh;
         background-color: rgb(8, 204, 204);
         transition: 0.5s ease;
     }
-    img:hover{
+
+    img:hover {
         transform: scale(1.1);
     }
 }
-/****************************************************************************/
-.container7{
+
+
+.container7 {
     margin: 100px 0px 100px 0px;
     //background-image: url(https://www.bing.com/images/blob?bcid=qBvvkgfR4J8Hr1Q68yTKaUe.Paf3.....74);
     background-color: rgb(231, 228, 211);
@@ -284,23 +371,31 @@
     margin-left: 40px;
     margin-right: 40px;
     padding: 50px;
-    a{
+
+    a {
         text-decoration: none;
-        h4{
-          color: black;  
-          padding-bottom: 50px;
-          
+
+        h4 {
+            color: black;
+            padding-bottom: 50px;
+
         }
-        h4:hover{
+
+        h4:hover {
             text-decoration: underline;
         }
-    }    
-    h1{
+    }
+
+    h1 {
         font-size: 5ch;
         font-weight: 600;
-        span{
-        
-            color: rgb(0, 110, 255); 
+
+        span {
+
+            color: rgb(0, 110, 255);
         }
     }
 }
+
+
+
