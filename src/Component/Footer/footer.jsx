@@ -1,4 +1,4 @@
-/*import React, { Component, Fragment } from "react";
+import React, { Component, Fragment } from "react";
 import style from './footer.module.css';
 import data from "../../data";
 export default class Footer extends Component {
@@ -73,11 +73,11 @@ export default class Footer extends Component {
             </Fragment >
         )
     }
-}*/
+}
 
 
 /*banan*/
-import React, { Component, Fragment } from "react";
+/*import React, { Component, Fragment } from "react";
 import styles from './footer.module.css'; // Corrected filename
 import img from "../../assets/logoo.png";
 
@@ -111,7 +111,7 @@ export default class Footer extends Component {
             </Fragment>
         )
     }
-}
+}*/
 
 
 

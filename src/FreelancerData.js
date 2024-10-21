@@ -1,157 +1,293 @@
 const freelancerdata = [
+    {
+        "id": 1,
+        "track": "Web Development",
+        "description": "I will develop and maintain websites, ensuring they are user-friendly and functional. This track prepares me for roles in a high-demand industry, where my skills will help businesses establish their online presence.",
+        "image": "https://img.freepik.com/free-photo/portrait-man-laughing_23-2148859448.jpg?size=338&ext=jpg&ga=GA1.1.2113030492.1728950400&semt=ais_hybrid",
+        "name": "Mohamed",
+        "company": "IT Wizz",
+        "phone": "123-456-7890",
+        "email": "mohamed@gmail.com",
+        "facebook": "https://www.facebook.com/",
+        "twitter": "https://x.com/home",
+        "linkedin": "https://www.linkedin.com/feed/",
+        "languages": "Arabic, English",
+        "from": "Egypt",
+        "Certifications": "Certified Web Developer from Egypt"
+    },
+    {
+        "id": 2,
+        "track": "AI Development",
+        "description": "I will create intelligent systems that learn from data and improve over time. This track is crucial for organizations looking to harness the power of AI, making my expertise valuable as the field grows.",
+        "image": "https://img.freepik.com/free-photo/portrait-man-laughing_23-2148859448.jpg?size=338&ext=jpg&ga=GA1.1.2113030492.1728950400&semt=ais_hybrid",
+        "name": "Ahmed",
+        "company": "RoboTech",
+        "phone": "987-654-3210",
+        "email": "ahmed@gmail.com",
+        "facebook": "https://www.facebook.com/",
+        "twitter": "https://x.com/home",
+        "linkedin": "https://www.linkedin.com/feed/",
+        "languages": "Arabic, French, English",
+        "from": "Morocco",
+        "Certifications": "AI Specialist from Morocco"
+    },
+    {
+        "id": 3,
+        "track": "Website Platform",
+        "description": "I will manage and optimize content management systems like WordPress. This skill is essential for businesses seeking to create and maintain effective online platforms.",
+        "image": "https://img.freepik.com/free-photo/portrait-man-laughing_23-2148859448.jpg?size=338&ext=jpg&ga=GA1.1.2113030492.1728950400&semt=ais_hybrid",
+        "name": "Ali",
+        "company": "SiteMaster",
+        "phone": "111-222-3333",
+        "email": "ali@gmail.com",
+        "facebook": "https://www.facebook.com/",
+        "twitter": "https://x.com/home",
+        "linkedin": "https://www.linkedin.com/feed/",
+        "languages": "Arabic, Turkish, English",
+        "from": "Turkey",
+        "Certifications": "WordPress Administrator from Turkey"
+    },
+    {
+        "id": 4,
+        "track": "Mobile App Development",
+        "description": "I will design and develop mobile applications for various platforms. This track is ideal for tapping into the growing market of mobile users, making my skills highly sought after.",
+        "image": "https://img.freepik.com/free-photo/portrait-man-laughing_23-2148859448.jpg?size=338&ext=jpg&ga=GA1.1.2113030492.1728950400&semt=ais_hybrid",
+        "name": "Karim",
+        "company": "Smart Apps Co.",
+        "phone": "444-555-6666",
+        "email": "karim@gmail.com",
+        "facebook": "https://www.facebook.com/",
+        "twitter": "https://x.com/home",
+        "linkedin": "https://www.linkedin.com/feed/",
+        "languages": "French, Arabic, English",
+        "from": "Algeria",
+        "Certifications": "Mobile App Developer from Algeria"
+    },
+    {
+        "id": 5,
+        "track": "Chatbot Development",
+        "description": "I will build chatbots that enhance customer interaction and service. This track is important for businesses aiming to automate communication and improve user experience.",
+        "image": "https://img.freepik.com/free-photo/portrait-man-laughing_23-2148859448.jpg?size=338&ext=jpg&ga=GA1.1.2113030492.1728950400&semt=ais_hybrid",
+        "name": "Sami",
+        "company": "ChatBot Experts",
+        "phone": "777-888-9999",
+        "email": "sami@gmail.com",
+        "facebook": "https://www.facebook.com/",
+        "twitter": "https://x.com/home",
+        "linkedin": "https://www.linkedin.com/feed/",
+        "languages": "English, Arabic",
+        "from": "Jordan",
+        "Certifications": "Certified Chatbot Developer from Jordan"
+    },
+    {
+        "id": 6,
+        "track": "Game Development",
+        "description": "I will learn to create engaging and interactive games. This track offers opportunities in a creative industry where innovative ideas are in high demand.",
+        "image": "https://img.freepik.com/free-photo/portrait-man-laughing_23-2148859448.jpg?size=338&ext=jpg&ga=GA1.1.2113030492.1728950400&semt=ais_hybrid",
+        "name": "Hassan",
+        "company": "PlayZone Studios",
+        "phone": "222-333-4444",
+        "email": "hassan@gmail.com",
+        "facebook": "https://www.facebook.com/",
+        "twitter": "https://x.com/home",
+        "linkedin": "https://www.linkedin.com/feed/",
+        "languages": "Arabic, French, English",
+        "from": "Lebanon",
+        "Certifications": "Game Developer Certification from Lebanon"
+    },
+    {
+        "id": 7,
+        "track": "Cloud & Cybersecurity",
+        "description": "I will secure data and applications in the cloud. This track is critical as more companies adopt cloud solutions, creating a need for skilled professionals in security.",
+        "image": "https://img.freepik.com/free-photo/portrait-man-laughing_23-2148859448.jpg?size=338&ext=jpg&ga=GA1.1.2113030492.1728950400&semt=ais_hybrid",
+        "name": "Mostafa",
+        "company": "SecureNet",
+        "phone": "555-666-7777",
+        "email": "mostafa@gmail.com",
+        "facebook": "https://www.facebook.com/",
+        "twitter": "https://x.com/home",
+        "linkedin": "https://www.linkedin.com/feed/",
+        "languages": "Arabic, German, English",
+        "from": "Saudi Arabia",
+        "Certifications": "Certified Cloud Security Professional from Saudi Arabia"
+    },
+    {
+        "id": 8,
+        "track": "Data Science & ML",
+        "description": "I will analyze data to derive insights and build machine learning models. This track is essential for organizations looking to make data-driven decisions.",
+        "image": "https://img.freepik.com/free-photo/portrait-man-laughing_23-2148859448.jpg?size=338&ext=jpg&ga=GA1.1.2113030492.1728950400&semt=ais_hybrid",
+        "name": "Ahmed Ali",
+        "company": "DataWise",
+        "phone": "999-000-1111",
+        "email": "ahmedali@gmail.com",
+        "facebook": "https://www.facebook.com/",
+        "twitter": "https://x.com/home",
+        "linkedin": "https://www.linkedin.com/feed/",
+        "languages": "Arabic, English",
+        "from": "Sudan",
+        "Certifications": "Data Science & ML Certificate from Sudan"
+    },
+    {
+        "id": 9,
+        "track": "Websites Maintenance",
+        "description": "I will ensure websites run smoothly and efficiently. This skill is vital for maintaining business operations and enhancing user satisfaction.",
+        "image": "https://img.freepik.com/free-photo/portrait-man-laughing_23-2148859448.jpg?size=338&ext=jpg&ga=GA1.1.2113030492.1728950400&semt=ais_hybrid",
+        "name": "Tarek",
+        "company": "WebCare",
+        "phone": "222-111-3333",
+        "email": "tarek@gmail.com",
+        "facebook": "https://www.facebook.com/",
+        "twitter": "https://x.com/home",
+        "linkedin": "https://www.linkedin.com/feed/",
+        "languages": "English, Arabic",
+        "from": "Syria",
+        "Certifications": "Certified Web Maintenance from Syria"
+    },
+    {
+        "id": 10,
+        "track": "Software Development",
+        "description": "I will create software solutions that meet user needs. This track provides a strong foundation for a career in technology, with many diverse opportunities.",
+        "image": "https://img.freepik.com/free-photo/portrait-man-laughing_23-2148859448.jpg?size=338&ext=jpg&ga=GA1.1.2113030492.1728950400&semt=ais_hybrid",
+        "name": "Omar",
+        "company": "CodeBase",
+        "phone": "777-222-4444",
+        "email": "omar@gmail.com",
+        "facebook": "https://www.facebook.com/",
+        "twitter": "https://x.com/home",
+        "linkedin": "https://www.linkedin.com/feed/",
+        "languages": "Arabic, English",
+        "from": "Palestine",
+        "Certifications": "Software Developer Certificate from Palestine"
+    },
+    {
+        "id": 11,
+        "track": "UI/UX Design",
+        "description": "I will design intuitive and engaging user interfaces and experiences. This track is vital for improving customer satisfaction and business success.",
+        "image": "https://img.freepik.com/free-photo/portrait-man-laughing_23-2148859448.jpg?size=338&ext=jpg&ga=GA1.1.2113030492.1728950400&semt=ais_hybrid",
+        "name": "Lucas",
+        "company": "DesignCraft",
+        "phone": "333-888-5555",
+        "email": "lucas@gmail.com",
+        "facebook": "https://www.facebook.com/",
+        "twitter": "https://x.com/home",
+        "linkedin": "https://www.linkedin.com/feed/",
+        "languages": "English, Spanish",
+        "from": "Brazil",
+        "Certifications": "Certified UX Designer from Brazil"
+    },
+    {
+        "id": 12,
+        "track": "Backend Development",
+        "description": "I will develop the server side of web applications, handling databases and server integration. This role is essential for any full-stack development team.",
+        "image": "https://img.freepik.com/free-photo/portrait-man-laughing_23-2148859448.jpg?size=338&ext=jpg&ga=GA1.1.2113030492.1728950400&semt=ais_hybrid",
+        "name": "Ben",
+        "company": "CodeCraft",
+        "phone": "555-777-8888",
+        "email": "ben@gmail.com",
+        "facebook": "https://www.facebook.com/",
+        "twitter": "https://x.com/home",
+        "linkedin": "https://www.linkedin.com/feed/",
+        "languages": "English, Dutch",
+        "from": "Netherlands",
+        "Certifications": "Certified Backend Developer from Netherlands"
+    },
+    {
+        "id": 13,
+        "track": "Graphics Design",
+        "description": "I will create stunning graphics that elevate brands and attract audiences. My skills in visual design are key to communicating messages effectively.",
+        "image": "https://img.freepik.com/free-photo/portrait-man-laughing_23-2148859448.jpg?size=338&ext=jpg&ga=GA1.1.2113030492.1728950400&semt=ais_hybrid",
+        "name": "Dimitri",
+        "company": "Graphica",
+        "phone": "222-333-4444",
+        "email": "dimitri@gmail.com",
+        "facebook": "https://www.facebook.com/",
+        "twitter": "https://x.com/home",
+        "linkedin": "https://www.linkedin.com/feed/",
+        "languages": "English, Greek",
+        "from": "Greece",
+        "Certifications": "Certified Graphic Designer from Greece"
+    },
+    {
+        "id": 14,
+        "track": "Video Editing",
+        "description": "I will edit videos that are cinematic and professional. My editing will bring your story to life in the most engaging way possible.",
+        "image": "https://img.freepik.com/free-photo/portrait-man-laughing_23-2148859448.jpg?size=338&ext=jpg&ga=GA1.1.2113030492.1728950400&semt=ais_hybrid",
+        "name": "Mickael",
+        "company": "Visual Pro",
+        "phone": "444-555-6666",
+        "email": "mickael@gmail.com",
+        "facebook": "https://www.facebook.com/",
+        "twitter": "https://x.com/home",
+        "linkedin": "https://www.linkedin.com/feed/",
+        "languages": "French, English",
+        "from": "France",
+        "Certifications": "Certified Video Editor from France"
+    },
+    {
+        "id": 15,
+        "track": "SEO Specialist",
+        "description": "I will optimize websites to rank higher in search engine results. This track is highly valuable for businesses looking to boost their online visibility and traffic.",
+        "image": "https://img.freepik.com/free-photo/portrait-man-laughing_23-2148859448.jpg?size=338&ext=jpg&ga=GA1.1.2113030492.1728950400&semt=ais_hybrid",
+        "name": "Nicolas",
+        "company": "SEO Masters",
+        "phone": "555-777-1111",
+        "email": "nicolas@gmail.com",
+        "facebook": "https://www.facebook.com/",
+        "twitter": "https://x.com/home",
+        "linkedin": "https://www.linkedin.com/feed/",
+        "languages": "English, Italian",
+        "from": "Italy",
+        "Certifications": "SEO Master Certification from Italy"
+    },
+    {
+        "id": 16,
+        "track": "Content Writing",
+        "description": "I will produce engaging and high-quality content for websites and blogs. This skill is essential for businesses looking to engage their audiences and rank in search engines.",
+        "image": "https://img.freepik.com/free-photo/portrait-man-laughing_23-2148859448.jpg?size=338&ext=jpg&ga=GA1.1.2113030492.1728950400&semt=ais_hybrid",
+        "name": "Lars",
+        "company": "Content Pro",
+        "phone": "888-999-0000",
+        "email": "lars@gmail.com",
+        "facebook": "https://www.facebook.com/",
+        "twitter": "https://x.com/home",
+        "linkedin": "https://www.linkedin.com/feed/",
+        "languages": "English, Danish",
+        "from": "Denmark",
+        "Certifications": "Content Writer Certification from Denmark"
+    },
+    {
+        "id": 17,
+        "track": "Video Production",
+        "description": "I will handle all aspects of video production, from shooting to editing. This skill is critical for creating high-quality video content for brands and businesses.",
+        "image": "https://img.freepik.com/free-photo/portrait-man-laughing_23-2148859448.jpg?size=338&ext=jpg&ga=GA1.1.2113030492.1728950400&semt=ais_hybrid",
+        "name": "Andrei",
+        "company": "ProVision Studios",
+        "phone": "999-555-3333",
+        "email": "andrei@gmail.com",
+        "facebook": "https://www.facebook.com/",
+        "twitter": "https://x.com/home",
+        "linkedin": "https://www.linkedin.com/feed/",
+        "languages": "English, Russian",
+        "from": "Russia",
+        "Certifications": "Video Production Specialist from Russia"
+    },
+    {
+        "id": 18,
+        "track": "Project Management",
+        "description": "I will manage your projects from start to finish, ensuring timely delivery and smooth operations. Project management is key to the success of any complex project.",
+        "image": "https://img.freepik.com/free-photo/portrait-man-laughing_23-2148859448.jpg?size=338&ext=jpg&ga=GA1.1.2113030492.1728950400&semt=ais_hybrid",
+        "name": "David",
+        "company": "ProjectPro",
+        "phone": "333-444-5555",
+        "email": "david@gmail.com",
+        "facebook": "https://www.facebook.com/",
+        "twitter": "https://x.com/home",
+        "linkedin": "https://www.linkedin.com/feed/",
+        "languages": "English, German",
+        "from": "Germany",
+        "Certifications": "Certified Project Manager from Germany"
+    }
+];
 
-        {
-            "id": 1,
-            "track": "Web Development",
-            "description": "I will develop and maintain websites, ensuring they are user-friendly and functional. This track prepares me for roles in a high-demand industry, where my skills will help businesses establish their online presence.",
-            "image": "https://img.freepik.com/free-photo/portrait-man-laughing_23-2148859448.jpg?size=338&ext=jpg&ga=GA1.1.2113030492.1728950400&semt=ais_hybrid",
-            "name": "Mohamed",
-            "company": "IT Wizz"
-        },
-        {
-            "id": 2,
-            "track": "AI Development",
-            "description": "I will create intelligent systems that learn from data and improve over time. This track is crucial for organizations looking to harness the power of AI, making my expertise valuable as the field grows.",
-            "image": "https://img.freepik.com/free-photo/portrait-man-laughing_23-2148859448.jpg?size=338&ext=jpg&ga=GA1.1.2113030492.1728950400&semt=ais_hybrid",
-            "name": "Ahmed",
-            "company": "RoboTech"
-        },
-        {
-            "id": 3,
-            "track": "Website Platform",
-            "description": "I will manage and optimize content management systems like WordPress. This skill is essential for businesses seeking to create and maintain effective online platforms.",
-            "image": "https://img.freepik.com/free-photo/portrait-man-laughing_23-2148859448.jpg?size=338&ext=jpg&ga=GA1.1.2113030492.1728950400&semt=ais_hybrid",
-            "name": "Ali",
-            "company": "SiteMaster"
-        },
-        {
-            "id": 4,
-            "track": "Mobile App Development",
-            "description": "I will design and develop mobile applications for various platforms. This track is ideal for tapping into the growing market of mobile users, making my skills highly sought after.",
-            "image": "https://img.freepik.com/free-photo/portrait-man-laughing_23-2148859448.jpg?size=338&ext=jpg&ga=GA1.1.2113030492.1728950400&semt=ais_hybrid",
-            "name": "Karim",
-            "company": "Smart Apps Co."
-        },
-        {
-            "id": 5,
-            "track": "Chatbot Development",
-            "description": "I will build chatbots that enhance customer interaction and service. This track is important for businesses aiming to automate communication and improve user experience.",
-            "image": "https://img.freepik.com/free-photo/portrait-man-laughing_23-2148859448.jpg?size=338&ext=jpg&ga=GA1.1.2113030492.1728950400&semt=ais_hybrid",
-            "name": "Sami",
-            "company": "ChatBot Experts"
-        },
-        {
-            "id": 6,
-            "track": "Game Development",
-            "description": "I will learn to create engaging and interactive games. This track offers opportunities in a creative industry where innovative ideas are in high demand.",
-            "image": "https://img.freepik.com/free-photo/portrait-man-laughing_23-2148859448.jpg?size=338&ext=jpg&ga=GA1.1.2113030492.1728950400&semt=ais_hybrid",
-            "name": "Hassan",
-            "company": "PlayZone Studios"
-        },
-        {
-            "id": 7,
-            "track": "Cloud & Cybersecurity",
-            "description": "I will secure data and applications in the cloud. This track is critical as more companies adopt cloud solutions, creating a need for skilled professionals in security.",
-            "image": "https://img.freepik.com/free-photo/portrait-man-laughing_23-2148859448.jpg?size=338&ext=jpg&ga=GA1.1.2113030492.1728950400&semt=ais_hybrid",
-            "name": "Mostafa",
-            "company": "SecureNet"
-        },
-        {
-            "id": 8,
-            "track": "Data Science & ML",
-            "description": "I will analyze data to derive insights and build machine learning models. This track is essential for organizations looking to make data-driven decisions.",
-            "image": "https://img.freepik.com/free-photo/portrait-man-laughing_23-2148859448.jpg?size=338&ext=jpg&ga=GA1.1.2113030492.1728950400&semt=ais_hybrid",
-            "name": "Ahmed Ali",
-            "company": "DataWise"
-        },
-        {
-            "id": 9,
-            "track": "Websites Maintenance",
-            "description": "I will ensure websites run smoothly and efficiently. This skill is vital for maintaining business operations and enhancing user satisfaction.",
-            "image": "https://img.freepik.com/free-photo/portrait-man-laughing_23-2148859448.jpg?size=338&ext=jpg&ga=GA1.1.2113030492.1728950400&semt=ais_hybrid",
-            "name": "Tarek",
-            "company": "WebCare"
-        },
-        {
-            "id": 10,
-            "track": "Software Development",
-            "description": "I will create software solutions that meet user needs. This track provides a strong foundation for a career in technology, with many diverse opportunities.",
-            "image": "https://img.freepik.com/free-photo/portrait-man-laughing_23-2148859448.jpg?size=338&ext=jpg&ga=GA1.1.2113030492.1728950400&semt=ais_hybrid",
-            "name": "Ezz El-Din",
-            "company": "TechWave"
-        },
-        {
-            "id": 11,
-            "track": "Blockchain & Bitcoin",
-            "description": "I will explore blockchain technology and its applications in various industries. This track prepares me for a role in an innovative field that is shaping the future of finance.",
-            "image": "https://img.freepik.com/free-photo/portrait-man-laughing_23-2148859448.jpg?size=338&ext=jpg&ga=GA1.1.2113030492.1728950400&semt=ais_hybrid",
-            "name": "Fathy",
-            "company": "BlockChain Co."
-        },
-        {
-            "id": 12,
-            
-            "track": "IT Consulting",
-            "description": "I will provide strategic IT solutions to help businesses leverage technology effectively. This track prepares me for a role in guiding organizations through digital transformation.",
-            "image": "https://img.freepik.com/free-photo/portrait-man-laughing_23-2148859448.jpg?size=338&ext=jpg&ga=GA1.1.2113030492.1728950400&semt=ais_hybrid",
-            "name": "Yassen",
-            "company": "Consulting Solutions"
-        },
-        
-        
-        {
-            "id": 13,
-            "track": "UX/UI Design",
-            "description": "I will create user experiences that are both functional and enjoyable. This skill is key for enhancing customer satisfaction and loyalty in digital products.",
-            "image": "https://img.freepik.com/free-photo/portrait-man-laughing_23-2148859448.jpg?size=338&ext=jpg&ga=GA1.1.2113030492.1728950400&semt=ais_hybrid",
-            "name": "Salim",
-            "company": "User First"
-        },
-        {
-            "id": 14,
-            "track": "Network Administration",
-            "description": "I will manage and maintain computer networks to ensure connectivity and security. This skill is essential for supporting organizational infrastructure.",
-            "image": "https://img.freepik.com/free-photo/portrait-man-laughing_23-2148859448.jpg?size=338&ext=jpg&ga=GA1.1.2113030492.1728950400&semt=ais_hybrid",
-            "name": "Nabil",
-            "company": "Network Pros"
-             
-        },
-        
-       
-       
-        {
-            "id": 15,
-            "track": "Database Management",
-            "description": "I will manage databases to ensure data integrity and accessibility. This skill is essential for supporting data-driven decision-making in organizations.",
-            "image": "https://img.freepik.com/free-photo/portrait-man-laughing_23-2148859448.jpg?size=338&ext=jpg&ga=GA1.1.2113030492.1728950400&semt=ais_hybrid",
-            "name": "Ziad",
-            "company": "Data Managers"
-        },
-        {
-            "id": 16,
-            "track": "Cloud Solutions",
-            "description": "I will explore and implement cloud technologies to enhance business operations. This track is increasingly relevant as more organizations move to cloud environments.",
-            "image": "https://img.freepik.com/free-photo/portrait-man-laughing_23-2148859448.jpg?size=338&ext=jpg&ga=GA1.1.2113030492.1728950400&semt=ais_hybrid",
-            "name": "Hatem",
-            "company": "CloudTech"
-        },
-        {
-            "id": 17,
-            "track": "IT Consulting",
-            "description": "I will provide strategic IT solutions to help businesses leverage technology effectively. This track prepares me for a role in guiding organizations through digital transformation.",
-            "image": "https://img.freepik.com/free-photo/portrait-man-laughing_23-2148859448.jpg?size=338&ext=jpg&ga=GA1.1.2113030492.1728950400&semt=ais_hybrid",
-            "name": "Rami",
-            "company": "Consulting Solutions"
-        },
-        {
-            "id": 18,
-            "track": "Web & App Design",
-            "description": "I will design visually appealing and user-friendly digital products. This track is essential for improving user engagement and satisfaction across platforms.",
-            "image": "https://img.freepik.com/free-photo/portrait-man-laughing_23-2148859448.jpg?size=338&ext=jpg&ga=GA1.1.2113030492.1728950400&semt=ais_hybrid",
-            "name": "Hisham",
-            "company": "Creative Designs"
-        },
-    ];
-    
-    
-export default freelancerdata
+export default freelancerdata;
+

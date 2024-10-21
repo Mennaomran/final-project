@@ -3,7 +3,7 @@ import { Navbar } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
 import Joi from "joi";
 import axios from "axios";
-
+import style from './regist.css';
 
 export default class UserRegister extends Component {
   user = {
@@ -79,55 +79,60 @@ export default class UserRegister extends Component {
 
       <Fragment>
         <Navbar />
-        <div className="container my-5 py-5">
-          <div className="row">
-            <div className="col-md-8 m-auto">
-              <h1 className="mb-5">Register</h1>
+
+        <div className={`${style.regist}`}>
+          
+            <div className="container  ">
+              <div className="row ">
+                <div className="col-md-8 m-auto">
+                  <h1 className="mb-5">Register</h1>
 
 
-             <input
-                name="first_name"
-                onKeyUp={this.getformdata}
-                className="form-control my-4"
-                placeholder="Enter your First Name"
-                type="text"
-              />
-              {this.renderErrors("first_name")}
+                  <input
+                    name="first_name"
+                    onKeyUp={this.getformdata}
+                    className="form-control my-4"
+                    placeholder="Enter your First Name"
+                    type="text"
+                  />
+                  {this.renderErrors("first_name")}
 
 
-              <input
-                name="last_name"
-                onKeyUp={this.getformdata}
-                className="form-control my-4"
-                placeholder="Enter your last Name"
-                type="text"
-              />
+                  <input
+                    name="last_name"
+                    onKeyUp={this.getformdata}
+                    className="form-control my-4"
+                    placeholder="Enter your last Name"
+                    type="text"
+                  />
 
-              {this.renderErrors("last_name")}
+                  {this.renderErrors("last_name")}
 
-              <input
-                name="email"
-                onKeyUp={this.getformdata}
-                className="form-control my-4"
-                placeholder="Enter your email"
-                type="text"
-              />
-              {this.renderErrors("email")}
-
-
-              <input
-                name="password"
-                onKeyUp={this.getformdata}
-                className="form-control my-4"
-                placeholder="Enter your password  "
-                type="password"
-              />
-              {this.renderErrors("password")}
+                  <input
+                    name="email"
+                    onKeyUp={this.getformdata}
+                    className="form-control my-4"
+                    placeholder="Enter your email"
+                    type="text"
+                  />
+                  {this.renderErrors("email")}
 
 
-              <NavLink to="/Client"><button onClick={this.sendData} className="btn btn-info mt-3">Register</button></NavLink>
+                  <input
+                    name="password"
+                    onKeyUp={this.getformdata}
+                    className="form-control my-4"
+                    placeholder="Enter your password  "
+                    type="password"
+                  />
+                  {this.renderErrors("password")}
+
+
+                  <NavLink to="/Client"><button onClick={this.sendData} className="btn btn-info mt-3">Register</button></NavLink>
+                </div>
+              </div>
             </div>
-          </div>
+          
         </div>
       </Fragment>
 

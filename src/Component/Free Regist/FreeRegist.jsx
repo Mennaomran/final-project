@@ -1,6 +1,6 @@
 import React, { Component, Fragment } from 'react';
 import { NavLink } from 'react-router-dom';
-
+import './FreelanceRegist.css'
 export default class ProfileForm extends Component {
   constructor(props) {
     super(props);
@@ -113,7 +113,7 @@ export default class ProfileForm extends Component {
             <p><strong>Phone Number:</strong> {formData.phoneNumber}</p>
             <p><strong>Profile Description:</strong> {formData.profileDescription}</p>
             <p><strong>Experience:</strong> {formData.teachingExperience}</p>
-            <p><strong>Motivation to Learn:</strong> {formData.motivateStudents}</p>
+            <p><strong>Why Would You Like TO Learn Here:</strong> {formData.motivateStudents}</p>
             <p><strong>Certificates:</strong> {formData.catchyTitle}</p>
             {formData.photo && <p><strong>Photo:</strong> {formData.photo.name}</p>}
             <button onClick={() => this.setState({ showSummary: false })} className="button button-back">Edit</button>
@@ -127,7 +127,7 @@ export default class ProfileForm extends Component {
               <li className={`step ${currentStep === 3 ? 'active' : ''}`}>3 Description</li>
             </ul>
 
-            <div className="form-container">
+            <div  className="form-container">
               <form onSubmit={this.handleSubmit}>
                 {currentStep === 1 && (
                   <>

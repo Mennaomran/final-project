@@ -3,14 +3,78 @@ import style from './style.module.css';
 import img from "../../assets/developers.jpg";
 
 export default class Home extends Component {
+  /*handleChange = (e) => {
+    const { name, value } = e.target;
+    this.setState((prevState) => ({
+      formData: { ...prevState.formData, [name]: value },
+    }));
+  };
+
+  handleFileChange = (e) => {
+    const file = e.target.files[0];
+    if (file) {
+      this.setState((prevState) => ({
+        formData: { ...prevState.formData, photo: file },
+      }));
+    }
+  };
+
+  handleSubmit = (e) => {
+    e.preventDefault();
+    this.setState({ errorMessage: '' });
+
+    const { currentStep, formData } = this.state;
+
+    if (currentStep === 1) {
+      if (!formData.firstName || !formData.lastName || !formData.email || !formData.countryOfBirth || !formData.subject || !formData.languages) {
+        this.setState({ errorMessage: 'Please fill in all required fields.' });
+        return;
+      }
+      this.setState({ message: 'Profile information saved successfully!' });
+    } else if (currentStep === 2) {
+      if (!formData.photo) {
+        this.setState({ errorMessage: 'Please upload a photo.' });
+        return;
+      }
+      this.setState({ message: 'Photo uploaded successfully!' });
+    } else if (currentStep === 3) {
+      if (!formData.profileDescription || !formData.teachingExperience || !formData.motivateStudents || !formData.catchyTitle) {
+        this.setState({ errorMessage: 'Please fill in all required fields for the description.' });
+        return;
+      }
+      this.setState({ message: 'Profile description saved successfully!' });
+    }
+  };
+
+  handleNext = () => {
+    if (this.state.message) {
+      this.setState((prevState) => ({
+        currentStep: prevState.currentStep + 1,
+        message: '',
+      }));
+    } else {
+      this.setState({ errorMessage: 'Please save your current step before proceeding.' });
+    }
+  };
+
+  handleBack = () => {
+    if (this.state.currentStep > 1) {
+      this.setState((prevState) => ({
+        currentStep: prevState.currentStep - 1,
+        message: '',
+        errorMessage: '',
+      }));
+    }
+  };
+
+  handleFinish = () => {
+    this.setState({ showSummary: true });
+  };*/
   render() {
-
-
     return (
       <Fragment>
-
         <div className={`${style.home}`}>
-          <section className={`${style.container}`}>
+          <section id="home" className={`${style.container}`}>
             <div className="row ms-5">
               <div className="cont col-lg-6 col-sm-6 ">
                 <h2>Welcome in our<span> community where you</span> can find what you need.</h2>
@@ -19,14 +83,12 @@ export default class Home extends Component {
                   <li>Pay only when you are 100% happy.</li>
                   <li>Start making your dreams reality.</li>
                 </ul>
-                <button className={`${style.button1}`}><span className=""></span>Hire Freelancer<i className="fa-solid fa-arrow-right ps-3 py-1"></i></button>
-                <button className={`${style.button2}`}><span className=""></span>Start Freelancing<i className="fa-solid fa-arrow-right ps-3 py-1"></i></button>
+                {/*<button onClick={this.handleNext} className={`${style.button1}`}><span className=""></span>Hire Freelancer<i className="fa-solid fa-arrow-right ps-3 py-1"></i></button>
+                <button className={`${style.button2}`}><span className=""></span>Start Freelancing<i className="fa-solid fa-arrow-right ps-3 py-1"></i></button>*/}
               </div>
             </div>
           </section>
-
-
-
+          
           <section className={`${style.container1}`}>
             <div className="row ">
               <div className="col-lg-2 col-sm-12"></div>
@@ -65,7 +127,7 @@ export default class Home extends Component {
           </section >
 
 
-          <section className={`${style.container2}`}>
+          <section id="about" className={`${style.container2}`}>
             <div className="row">
               <div className="col-lg-7">
                 <div className="row">
@@ -190,7 +252,7 @@ export default class Home extends Component {
             </p>
           </div>
           
-          <div className={`container ${style.container9}`}>
+          <div id="beadiv" className={`container ${style.container9}`}>
             <div className={`row m-5 ${style.row}`}>
               <div
                 className={`col-lg-6 col-md-6 col-sm-12 ${style.muliimage}`}
@@ -272,7 +334,7 @@ export default class Home extends Component {
 
 
 
-          <section className={`${style.container5}`}>
+          <section id="traks" className={`${style.container5}`}>
             <div className="container  mt-5">
               <div className="row">
                 <div className="col-lg-5 col-sm-12 pt-5 mt-5">
