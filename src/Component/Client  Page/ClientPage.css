@@ -1,43 +1,239 @@
-.container .row {
-  background-color: rgb(255, 255, 255);
-}
-.container .row .h1 {
-  font-size: 7ch;
-  font-weight: 600;
-}
-.container .row p {
-  font-size: 7ch;
-  font-weight: 600;
-}
-.container .row .data .one {
-  border-style: solid;
-  border-radius: 4dvh;
-  background-color: rgba(56, 55, 55, 0.188);
-  padding-bottom: 10px;
-  padding-top: 15px;
-  border-radius: 5dvh;
-  color: rgb(0, 0, 0);
-}
-.container .row .data img {
-  border-radius: 50dvh;
-  padding-bottom: 10px;
-}
-
 .welcome {
   width: 100%;
-  background-image: url(https://i.pinimg.com/736x/59/12/5c/59125c1eefac966ae278d333ae62a818.jpg);
+  background-image: url(https://img.freepik.com/free-photo/programming-background-with-person-working-with-codes-computer_23-2150010144.jpg?t=st=1731371347~exp=1731374947~hmac=1943df99b4b4a2ac4e51c01d28ce2ceb638f0248ae039e9845a70e4733449e3d&w=996);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 85vh;
 }
 .welcome h1 {
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
-  padding-top: 200px;
   color: white;
-  padding-left: 400px;
   font-size: 7ch;
   font-weight: 600;
-}/*# sourceMappingURL=ClientPage.css.map */
+}
+
+.freelancer-card {
+  background-color: rgb(255, 255, 255);
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  transition: transform 0.3s;
+}
+.freelancer-card:hover {
+  transform: translateY(-5px);
+}
+.freelancer-card .freelancer-image {
+  width: 100%;
+  height: 100%;
+  border-radius: 4dvh;
+}
+.freelancer-card .freelancer-info {
+  margin-top: 15px;
+}
+.freelancer-card .freelancer-info h2 {
+  font-size: 1.5rem;
+  color: rgb(0, 123, 255);
+  margin-bottom: 5px;
+}
+.freelancer-card .freelancer-info h4 {
+  font-size: 1.2rem;
+  color: rgb(85, 85, 85);
+}
+.freelancer-card .freelancer-info p {
+  margin: 0;
+  color: rgb(119, 119, 119);
+}
+.freelancer-card .freelancer-info button {
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 4px;
+  padding: 10px 15px;
+  cursor: pointer;
+  transition: background-color 0.5s;
+}
+.freelancer-card .freelancer-info button:hover {
+  background-color: rgb(52, 150, 255);
+}
+
+.freelancerCard {
+  background-color: rgb(255, 255, 255);
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 50%;
+}
+.freelancerCard .card-data {
+  display: flex;
+  align-items: center;
+}
+.freelancerCard .card-data .profileImage {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+.freelancerCard .card-data .ms-3 {
+  flex-grow: 1;
+}
+.freelancerCard .card-data .ms-3 h2 {
+  font-size: 1.5rem;
+  color: rgb(0, 123, 255);
+}
+.freelancerCard .card-data .ms-3 h4 {
+  font-size: 1.2rem;
+  color: #555;
+}
+.freelancerCard .card-data .ms-3 p {
+  margin: 5px 0;
+  color: #777;
+  padding-left: 0px;
+  font-weight: 300;
+}
+.freelancerCard .card-data .ms-3 p.company {
+  color: #000;
+}
+.freelancerCard .card-cont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+  border-top: #000 solid;
+  background-color: #e7e5e5;
+  border-width: 2px;
+}
+.freelancerCard .card-cont div p {
+  margin: 0;
+}
+.freelancerCard .card-cont a {
+  color: rgb(0, 123, 255);
+  font-size: 1.2rem;
+  transition: color 0.3s;
+}
+.freelancerCard .card-cont a:hover {
+  color: rgba(0, 123, 255, 0.749);
+}
+
+/*.welcome {
+    width: 100%;
+    background-image: url(https://i.pinimg.com/736x/59/12/5c/59125c1eefac966ae278d333ae62a818.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 95vh;
+    h1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding-top: 200px;
+        color: white;
+
+        font-size: 7ch;
+        font-weight: 600;
+    }
+}
+.container-fluid {
+    padding: 20px;
+
+    .row {
+        background-color: rgb(255, 255, 255);
+
+        .freelancer-card {
+            border: 1px solid  #ddd;
+            border-radius: 10px;
+            background-color: rgba(56, 55, 55, 0.1);
+            padding: 10px;
+            transition: transform 0.3s;
+            width: 300px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+            &:hover {
+                transform: scale( 1.05);
+            }
+
+            .freelancer-image {
+                width: 100%;
+                height: auto;
+                border-radius: 50%;
+                margin-bottom: 15px;
+            }
+
+            .freelancer-info {
+                h2 {
+                    font-size: 1.5rem;
+                    margin-bottom: 10px;
+                }
+
+                h4 {
+                    color: #555;
+                    margin-bottom: 10px;
+                }
+
+                p {
+                    margin: 5px 0;
+                }
+            }
+        }
+    }
+}*/
+/*.container {
+    .row {
+        background-color: rgb(255, 255, 255);
+
+
+
+        .h1 {
+            font-size: 7ch;
+            font-weight: 600;
+        }
+
+        p {
+            font-size: 7ch;
+            font-weight: 600;
+        }
+
+        .data {
+
+
+            .one {
+                border-style: solid;
+                border-radius: 4dvh;
+                background-color: rgba(56, 55, 55, 0.188);
+                padding-bottom: 10px;
+                padding-top: 15px;
+                border-radius: 5dvh;
+                color: rgb(0, 0, 0);
+            }
+
+            img {
+                border-radius: 50dvh;
+                padding-bottom: 10px;
+            }
+
+
+        }
+    }
+
+}
+
+.welcome {
+    width: 100%;
+    background-image: url(https://i.pinimg.com/736x/59/12/5c/59125c1eefac966ae278d333ae62a818.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+
+    h1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding-top: 200px;
+        color: white;
+        padding-left: 400px;
+        font-size: 7ch;
+        font-weight: 600;
+    }
+}*//*# sourceMappingURL=ClientPage.css.map */

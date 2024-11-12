@@ -1,4 +1,5 @@
-/*import React, { Component, Fragment } from "react";
+/*
+import React, { Component, Fragment } from "react";
 import styles from "./nav.module.css";
 
 import { NavLink } from "react-router-dom";
@@ -101,7 +102,8 @@ export default class Navbar extends Component {
       </Fragment>
     );
   }
-}*/
+}
+  */
 
 import React, { Component, Fragment } from "react";
 import styles from "./nav.module.css";
@@ -130,47 +132,24 @@ export default class Navbar extends Component {
             </button>
             <div className="collapse navbar-collapse" id="navbarNav">
               <div className={`navbar-nav ms-auto ${styles.navbarnav}`}>
-                <NavLink className={`nav-link ${styles.navlink}`} to="/footer">
-                  Find talent
+                <NavLink className={`nav-link ${styles.navlink}`} to="/">
+                  <p className="px-3">Home</p>
                 </NavLink>
-                <NavLink className={`nav-link ${styles.navlink}`} to="/find-work">
-                  Find work
-                </NavLink>
-                <NavLink className={`nav-link ${styles.navlink}`} to="/about">
-                  About us
+                
+                <NavLink className={`nav-link ${styles.navlink}`} to="/">
+                  <p>About us</p>
                 </NavLink>
 
-                <NavLink className={`nav-link ${styles.navlink}`} to="/login">
-                  <button className={`btn ${styles.btn1}`}>Login</button>
+                <NavLink className={`nav-link ${styles.navlink}`} to="/">
+                  <button className={`btn ${styles.btn1}`}> <span className={`pb-5  ${styles.login}`}>Login </span> </button>
                 </NavLink>
 
-                <li className="nav-item dropdown">
-                  <button
-                    className={`nav-link  mt-2 ${styles.btn2}`}
-                    id="navbarDropdown"
-                    role="button"
-                    data-bs-toggle="dropdown"
-                    aria-expanded="false"
-                  >
-                    Sign up
-                    <i className="fa-solid fa-right-to-bracket ps-2"></i>
-                  </button>
-                  <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <li>
-                      <NavLink className="dropdown-item" to="/signup/freelancer">
-                        As a freelancer
-                      </NavLink>
-                    </li>
-                    <li>
-                      <hr className="dropdown-divider" />
-                    </li>
-                    <li>
-                      <NavLink className="dropdown-item" to="/signup/client">
-                        As a client
-                      </NavLink>
-                    </li>
-                  </ul>
-                </li>
+                <NavLink className={`nav-link ${styles.navlink}`} to="/">
+                  <button className={`btn  ${styles.btn2}`}><span className={`pb-5  ${styles.login}`}>sign up </span>
+                    <i className="fa-solid fa-right-to-bracket ps-2"></i></button>
+                </NavLink>
+
+                
               </div>
             </div>
           </div>
